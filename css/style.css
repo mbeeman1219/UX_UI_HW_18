@@ -57,9 +57,11 @@ h3 {
     margin-top: 30px;
 }
 
-@media only screen and (max-width: 600){
-    flex-direction: column;
+@media only screen and (max-width: 600px) {
+    .workGrid {
+        flex-direction: column;
     width: 100%;
     grid-template-areas: "ShhBrain" "FrameFatales";
     grid-template-columns: 1fr;
+    }
 }
