@@ -1,0 +1,58 @@
+/* My UX Skills section coded using CSS flex */
+.flexContainer {
+    display: flex;
+    width: 33% 33% 33% 33%;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flexContainer img {
+    width: 100px;
+    height: 100px;
+}
+
+.flexContainer div {
+    text-align: center;
+    padding: 10px;
+}
+
+/*My Work Section constructed using CSS grid*/
+.MyWork h1 {
+    margin-top: 70px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: ShhBrain FrameFatales;
+    margin-top: 30px;
+    
+}
+
+.workGrid img {
+    width: 300px;
+    height: 200px;
+}
+
+.workGrid div {
+    padding: 10px;
+}
+
+.item1 {
+    grid-area: ShhBrain;
+}
+
+.item2 {
+    grid-area: FrameFatales;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 30px;
+}
